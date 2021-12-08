@@ -1,0 +1,81 @@
+@use 'color';
+
+.nav {
+    width: 100%;
+    max-width: 100%;
+    background-color: color.$twoColor;
+    position: sticky;
+    top: 0;
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 40px;
+    }
+    &__logo img {
+        width: 150px;
+        padding: 15px;
+        display: block;
+        object-fit: cover;
+    }
+    &__link a {
+        color: color.$fourColor;
+        text-decoration: none;
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+    &__link a:hover {
+        color: color.$fiveColor;
+    }
+    &__icon {
+        display: none;
+    }
+    &__checkbox {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav {
+        &__links {
+            width: 90%;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__link {
+            position: fixed;
+            top: 80px;
+            right: 0;
+            background: color.$twoColor;
+            height: 100%;
+            width: 60%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            transform: translate(100%);
+            transition: 0.4s transform;
+        }
+        &__logo img {
+            width: 100px;
+        }
+        &__link a {
+            font-size: 1.2rem;
+        }
+        &__icon {
+            display: block;
+            cursor: pointer;
+        }
+        &__icon--img {
+            display: block;
+            width: 35px;
+        }
+        :checked + * {
+            transform: translate(0);
+        }
+    }
+}
