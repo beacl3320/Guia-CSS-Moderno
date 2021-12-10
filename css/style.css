@@ -10,6 +10,11 @@
   top: 0;
   z-index: 1;
 }
+.nav__logo {
+  display: flex;
+  align-items: center;
+  color: #ffe8d6;
+}
 .nav__links {
   display: flex;
   justify-content: space-between;
@@ -86,6 +91,7 @@
     display: block;
     width: 35px;
     margin-right: 20px;
+    color: #ffe8d6;
   }
   .nav :checked + * {
     transform: translate(0);
@@ -132,6 +138,27 @@
     font-size: 3.6rem;
   }
 }
+.one-section__title {
+  color: #6b705c;
+}
+.one-section__title h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px 0;
+  text-decoration: underline;
+}
+.one-section__title p {
+  font-size: 1.5rem;
+  text-align: justify;
+  margin: 15px 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
 * {
   margin: 0;
   padding: 0;
