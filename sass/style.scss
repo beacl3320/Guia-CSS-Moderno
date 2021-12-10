@@ -2,7 +2,9 @@
 @use 'nav';
 @use 'header';
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 * {
     margin: 0;
@@ -11,8 +13,12 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+   /*  font-family: 'Gwendolyn', cursive; */
+   font-family: 'Lobster', cursive;
     background: color.$fourColor;
     height: 1200px;
+    width: 100%;
+    max-width: 100%;
 }
 

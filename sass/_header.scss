@@ -1,0 +1,53 @@
+@use 'color';
+
+.header{
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #cb997e78, #b7b7a486), url(/assets/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0.1px;
+    position: relative;
+    &__text{
+        text-align: center;
+        margin-top: 350px;
+        color: #a5a58d;
+        -webkit-text-stroke: 1px color.$fourColor;
+    }
+    &__title{
+        font-size: 7rem;
+    }
+    &__wave{
+        position:absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        &__title{
+            font-size: 3.6rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
