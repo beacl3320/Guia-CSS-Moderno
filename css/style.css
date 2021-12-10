@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap'); */
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 .nav {
   width: 100%;
@@ -135,9 +133,15 @@
 
 @media (max-width: 768px) {
   .header__title {
-    font-size: 3.6rem;
+    font-size: 3.5rem;
   }
 }
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
 .one-section__title {
   color: #6b705c;
 }
@@ -153,12 +157,64 @@
   margin: 15px 0;
 }
 
-.container {
-  width: 80%;
-  max-width: 1200px;
-  margin: 20px auto;
+.two-section__title {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 40px 0;
+  -webkit-text-stroke: 2px #cb997e;
+  color: #a5a58d;
+  text-decoration: underline;
+  text-align: center;
+}
+.two-section__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+.two-section__video video {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+  margin: 0 auto;
+}
+.two-section__video p {
+  font-size: 1.6rem;
+  color: #6b705c;
+  margin: 10px 0;
+}
+.two-section__video a {
+  text-decoration: none;
+  color: #6b705c;
+  font-size: 1.3rem;
+}
+.two-section__cta a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #ddbea9;
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  color: #6b705c;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 768px) {
+  .two-section__video video {
+    width: 280px;
+    height: 180px;
+  }
+}
+@media (max-width: 550px) {
+  .two-section__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -166,8 +222,6 @@
 }
 
 body {
-  /* font-family: 'Lato', sans-serif; */
-  /*  font-family: 'Gwendolyn', cursive; */
   font-family: "Lobster", cursive;
   background: #ffe8d6;
   height: 1200px;

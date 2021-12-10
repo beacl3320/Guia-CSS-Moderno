@@ -1,11 +1,10 @@
 @use 'color';
 @use 'nav';
 @use 'header';
-@use 'oneSection';
 @use 'container';
+@use 'oneSection';
+@use 'twoSection';
 
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 * {
@@ -15,12 +14,11 @@
 }
 
 body {
-    /* font-family: 'Lato', sans-serif; */
-   /*  font-family: 'Gwendolyn', cursive; */
-   font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursive;
     background: color.$fourColor;
     height: 1200px;
     width: 100%;
     max-width: 100%;
 }
+
 

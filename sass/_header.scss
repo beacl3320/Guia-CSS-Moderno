@@ -13,7 +13,7 @@
     &__text{
         text-align: center;
         margin-top: 350px;
-        color: #a5a58d;
+        color: color.$twoColor;
         -webkit-text-stroke: 1px color.$fourColor;
     }
     &__title{
@@ -30,7 +30,7 @@
 @media (max-width: 768px) {
     .header {
         &__title{
-            font-size: 3.6rem;
+            font-size: 3.5rem;
         }
     }
 }
