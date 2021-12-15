@@ -95,15 +95,6 @@
     transform: translate(0);
   }
 }
-/* @media (max-width: 550px){
-    .nav{
-        width: 100%;
-        max-width: 100%;
-        &__link a {
-        font-size: 1.5rem;
-    }
-}
-} */
 .header {
   width: 100%;
   max-width: 100%;
