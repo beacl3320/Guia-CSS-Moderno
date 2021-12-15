@@ -1,0 +1,24 @@
+@use 'color';
+
+.footer{
+    height: 100px;
+    background-color: color.$sixColor;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    &__text{
+        color: color.$fourColor;
+        font-size: 1.2rem;
+    }
+    &__text p{
+        margin: 10px 0;
+    }
+    
+}
+
+.footer--link{
+    color: color.$fourColor;
+    font-size: 1.8rem;
+}
