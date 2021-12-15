@@ -18,6 +18,13 @@
         justify-items: center;
     }
 
+    &__video{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
     &__video video{
         width: 450px;
         height: 300px;
