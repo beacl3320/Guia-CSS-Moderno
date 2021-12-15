@@ -1,7 +1,7 @@
 @use 'color';
 
 .footer{
-    height: 100px;
+    height: 80px;
     background-color: color.$sixColor;
     width: 100%;
     max-width: 100%;
@@ -15,7 +15,6 @@
     &__text p{
         margin: 10px 0;
     }
-    
 }
 
 .footer--link{

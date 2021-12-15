@@ -173,7 +173,7 @@
 }
 .two-section__video video {
   width: 380px;
-  height: 250px;
+  height: 210px;
   object-fit: cover;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
   margin: 0 auto;
@@ -222,7 +222,7 @@
   }
 }
 .footer {
-  height: 100px;
+  height: 80px;
   background-color: #cb997e;
   width: 100%;
   max-width: 100%;
@@ -252,7 +252,7 @@
 body {
   font-family: "Lobster", cursive;
   background: #ffe8d6;
-  height: 1200px;
+  /* height: 1200px; */
   width: 100%;
   max-width: 100%;
 }
