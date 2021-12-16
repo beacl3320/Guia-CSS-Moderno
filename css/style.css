@@ -244,13 +244,14 @@
 }
 
 .arrow {
-  background: #b7b7a4;
+  /* background: color.$threeColor; */
   padding: 10px;
-  font-size: 40px;
+  font-size: 50px;
   position: fixed;
   border-radius: 6px;
-  bottom: 20px;
-  right: 20px;
+  bottom: 70px;
+  right: 40px;
+  align-items: center;
 }
 
 /* Custom Scroll Bar CSS */
@@ -271,6 +272,16 @@
   background: #a5a58d;
 }
 
+@media (max-width: 768px) {
+  .arrow {
+    right: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .arrow {
+    right: 5px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
