@@ -243,6 +243,34 @@
   font-size: 1.8rem;
 }
 
+.arrow {
+  background: #b7b7a4;
+  padding: 10px;
+  font-size: 40px;
+  position: fixed;
+  border-radius: 6px;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Custom Scroll Bar CSS */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ddbea9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6b705c;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a5a58d;
+}
+
 * {
   margin: 0;
   padding: 0;

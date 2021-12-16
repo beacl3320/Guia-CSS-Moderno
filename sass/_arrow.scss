@@ -1,0 +1,29 @@
+@use 'color';
+
+.arrow{
+    background: color.$threeColor;
+    padding: 10px;
+    font-size: 40px;
+    position: fixed;
+    border-radius: 6px;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Custom Scroll Bar CSS */
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: color.$fiveColor;
+}
+
+::-webkit-scrollbar-thumb{
+    background: color.$oneColor;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: color.$twoColor;
+}
